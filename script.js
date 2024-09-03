@@ -21,4 +21,27 @@ function linkButtons(myLinks) {
     return document.querySelector('.theLinks').innerHTML = linksHTML;
 }
 
-//export default linkButtons;
+function linkbar(myLinks) {
+    let results = '';
+
+    myLinks.forEach((linked) => {
+        if (linked.followbar === true) {
+            results += `
+                <a href="${linked.url}" target="_blank">
+                    <i class="${linked.icon}"></i>
+                </a>
+            `;
+        }
+    });
+
+    const linksBarHTML = `
+        ${results}
+    `;
+
+    return document.querySelector('.social-icons').innerHTML = linksBarHTML;
+}
+
+function generateContext(myLinks) {
+    linkButtons(myLinks);
+    linkbar(myLinks);
+}
