@@ -149,7 +149,7 @@ h2 {
     text-align: center;
     color: #123456;
     font-family: "Great Vibes", cursive;
-    font-size: 40px;
+    font-size: 25px;
     font-weight: bold;
     background: linear-gradient(to right, #d9d2e9, #8e7cc3);
     -webkit-background-clip: text;
@@ -160,7 +160,7 @@ h2 {
 
 .link-box i {
     color: #8E7CC3;
-    font-size: 25px;
+    font-size: 15px;
     padding: 0px;
 }
 
