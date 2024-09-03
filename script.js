@@ -18,7 +18,7 @@ function linkButtons(myLinks) {
         </div>
     `;
 
-    document.querySelector('.theLinks').innerHTML = linksHTML;
+    return document.querySelector('.theLinks').innerHTML = linksHTML;
 }
 
 //export default linkButtons;

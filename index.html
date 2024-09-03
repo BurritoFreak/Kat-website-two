@@ -10,7 +10,7 @@
     <script src="content/links.js"></script>
     <script src="script.js"></script>
 </head>
-<body>
+<body onload="linkButtons(myLinks)">
     <header>
         <div class="header-container">
             <img src="content/Logo.png" alt="Logo" class="logo">
@@ -26,7 +26,7 @@
 
         <section class="links-section">
             <h2>Links</h2>
-            <div class="theLinks" onload="linkButtons(myLinks)"></div>
+            <div class="theLinks"></div>
             <!-- The links will be dynamically generated here -->
         </section>
 
