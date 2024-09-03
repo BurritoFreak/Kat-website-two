@@ -19,12 +19,6 @@ const myLinks = [{
     "image": "Instagram.jpg",
     "followbar": true
 },{
-    "name": "Alt Instagram",
-    "url": "https://www.instagram.com/emokitten_xoxoreels/",
-    "icon": "fab fa-instagram",
-    "image": "Alt-Instagram.jpg",
-    "followbar": false
-},{
     "name": "Twitter",
     "url": "https://twitter.com/emokitten_xoxo",
     "icon": "fab fa-twitter",
