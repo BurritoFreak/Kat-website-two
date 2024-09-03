@@ -36,6 +36,9 @@ body {
 
     body {
         background-color: #000000;
+        background-image: url("./content/background.png");
+        background-size: cover;
+        background-position: center;
     }
 }
 
@@ -146,7 +149,7 @@ h2 {
     text-align: center;
     color: #123456;
     font-family: "Great Vibes", cursive;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: bold;
     background: linear-gradient(to right, #d9d2e9, #8e7cc3);
     -webkit-background-clip: text;
@@ -155,9 +158,14 @@ h2 {
     color: transparent;
 }
 
-.link-button i {
-    width: 30px;
-    height: 30px;
+.link-box i {
+    color: #8E7CC3;
+    font-size: 25px;
+    padding: 0px;
+}
+
+.link-box span {
+    padding: 10px;
 }
 
 .link-box {
