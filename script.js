@@ -12,7 +12,11 @@ function linkButtons(myLinks) {
         results += `
             <a href="${linked.url}" target="_blank" class="link-button">
                 <img src="./content/${linked.image}" alt="${linked.name}" class="link-image">
-                <span class="link-title">${linked.name}</span>
+                <div class="link-box">
+                    <i class="${linked.icon}"></i>
+                    <span class="link-title">${linked.name}</span>
+                    <i class="${linked.icon}"></i>
+                </div>
             </a>
         `;
     });

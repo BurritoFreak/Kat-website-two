@@ -155,10 +155,17 @@ h2 {
     color: transparent;
 }
 
-.link-icon {
-    width: 24px;
-    height: 24px;
-    margin-left: 10px;
+.link-button i {
+    width: 30px;
+    height: 30px;
+}
+
+.link-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    margin: auto;
 }
 
 .socials-section {
