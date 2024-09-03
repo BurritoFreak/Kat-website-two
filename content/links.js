@@ -1,4 +1,3 @@
-
 //React element in json form with all of my links
 
 const myLinks = [{
@@ -43,4 +42,10 @@ const myLinks = [{
     "icon": "fab fa-twitch",
     "image": "Twitch.jpg",
     "followbar": true
+},{
+    "name": "Alt Instagram",
+    "url": "https://www.instagram.com/emokitten_xoxoreels/",
+    "icon": "fab fa-instagram",
+    "image": "Alt-Instagram.jpg",
+    "followbar": false
 }];
