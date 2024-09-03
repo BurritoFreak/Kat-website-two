@@ -17,6 +17,11 @@ const myLinks = [{
     "icon": "fab fa-instagram",
     "image": "Instagram.jpg"
 },{
+    "name": "Alt Instagram",
+    "url": "https://www.instagram.com/emokitten_xoxoreels/",
+    "icon": "fab fa-instagram",
+    "image": "Alt-Instagram.jpg"
+},{
     "name": "Twitter",
     "url": "https://twitter.com/emokitten_xoxo",
     "icon": "fab fa-twitter",
