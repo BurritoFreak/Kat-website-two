@@ -37,5 +37,3 @@ const myLinks = [{
     "icon": "fab fa-twitch",
     "image": "Twitch.jpg"
 }];
-
-export default myLinks;

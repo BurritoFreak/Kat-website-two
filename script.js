@@ -1,6 +1,5 @@
-import myLinks from './content/links.js';
 
-function linkButtons() {
+function linkButtons(myLinks) {
     let results = '';
 
     myLinks.forEach((linked) => {
@@ -22,4 +21,4 @@ function linkButtons() {
     return linksHTML;
 }
 
-export default linkButtons;
+//export default linkButtons;
