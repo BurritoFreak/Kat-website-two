@@ -44,4 +44,5 @@ function linkbar(myLinks) {
 function generateContext(myLinks) {
     linkButtons(myLinks);
     linkbar(myLinks);
+    return;
 }
