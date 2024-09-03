@@ -1,4 +1,10 @@
 
+function generateContext(myLinks) {
+    linkButtons(myLinks);
+    linkbar(myLinks);
+    return;
+}
+
 function linkButtons(myLinks) {
     let results = '';
 
@@ -39,10 +45,4 @@ function linkbar(myLinks) {
     `;
 
     return document.querySelector('.social-icons').innerHTML = linksBarHTML;
-}
-
-function generateContext(myLinks) {
-    linkButtons(myLinks);
-    linkbar(myLinks);
-    return;
 }
