@@ -33,4 +33,4 @@ const myLinks = [{
     "image": "Twitch.jpg"
 }];
 
-export default myLinks
+export default myLinks;
