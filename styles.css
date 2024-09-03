@@ -50,22 +50,47 @@ h1 {
 }
 
 .links-list {
-    list-style: none;
-    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.links-list li {
+.link-button {
+    display: flex;
+    align-items: center;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
     margin: 10px 0;
-}
-
-.links-list a {
+    border-radius: 8px;
     text-decoration: none;
-    color: #007bff;
-    font-weight: bold;
+    width: 80%;
+    max-width: 500px;
+    justify-content: space-between;
+    transition: background-color 0.3s ease;
 }
 
-.links-list a:hover {
-    color: #0056b3;
+.link-button:hover {
+    background-color: #0056b3;
+}
+
+.link-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.link-title {
+    flex: 1;
+    text-align: left;
+    font-size: 1.2rem;
+}
+
+.link-icon {
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
 }
 
 .socials-section {
@@ -78,7 +103,7 @@ h1 {
     display: inline-block;
 }
 
-.social-icons img {
+social-icons img {
     width: 40px;
     height: 40px;
 }
