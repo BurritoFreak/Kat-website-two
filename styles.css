@@ -52,16 +52,19 @@ body {
 .name-container {
     display: flex;
     flex-direction: column;
-    align-items: left;
-    text-align: left;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
 }
 
 .name-container h1 {
+    margin-top: 0px;
     margin-bottom: -5px;
 }
 
 .name-container h2 {
     margin-top: -5px;
+    margin-bottom: 5px;
 }
 
 .logo {
@@ -69,11 +72,16 @@ body {
 }
 
 h1 {
-    font-size: 2rem;
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 1.25rem;
 }
 
 .bio-section {
     text-align: center;
+    white-space: nowrap;
 }
 
 .profile-picture {
@@ -149,6 +157,10 @@ h1 {
 .socials-section {
     text-align: center;
     margin: 20px;
+    margin-top: -150px;
+    top: 0px;
+    position: relative;
+    margin-top: -150px
 }
 
 .social-icons a {
