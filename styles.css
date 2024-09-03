@@ -8,7 +8,7 @@
 body {
     font-family: Times New Roman, sans-serif;
     background-color: #9768fc;
-    color: #333;
+    color: #000;
     line-height: 1.6;
 }
 
@@ -167,12 +167,13 @@ h2 {
     margin-top: -150px;
     top: 0px;
     position: relative;
-    margin-top: -150px
 }
 
 .social-icons a {
     margin: 0 10px;
     display: inline-block;
+    color: #000000;
+    font-size: 30px;
 }
 
 social-icons img {
