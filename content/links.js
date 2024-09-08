@@ -7,6 +7,12 @@ const myLinks = [{
     "image": "OnlyFans.jpg",
     "followbar": true
 },{
+    "name": "ManyVids",
+    "url": "https://emokittenxoxo.manyvids.com",
+    "icon": "fa-solid fa-pepper-hot",
+    "image": "ManyVids.jpg",
+    "followbar": true
+},{
     "name": "Tik Tok",
     "url": "https://www.tiktok.com/@emokitten_xoxo",
     "icon": "fab fa-tiktok",
