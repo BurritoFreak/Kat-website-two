@@ -10,7 +10,7 @@ function linkButtons(myLinks) {
 
     myLinks.forEach((linked) => {
         results += `
-            <a href="${linked.url}" target="_blank" class="link-button">
+            <a href="${linked.url}" target="_blank" class="link-button ${linked.name}">
                 <img src="./content/${linked.image}" alt="${linked.name}" class="link-image">
                 <div class="link-box">
                     <i class="${linked.icon}"></i>
