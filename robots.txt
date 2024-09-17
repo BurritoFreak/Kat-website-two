@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /content/
+Allow: /content/Banner.jpg
+Allow: /content/Logo.png
+
+Sitemap: https://www.emokittenxo.com/sitemap.xml
